@@ -1,0 +1,30 @@
+.app {
+    width: 65%;
+    margin: auto;
+    background: white;
+}
+
+.pokemon_img {
+    width: 200px;
+    background: rgb(202, 202, 202);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.type_cont {
+    width: 183px;
+}
+.grass {
+    background: rgb(118, 175, 92);
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.poison {
+    background: rgb(180, 116, 180);
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
