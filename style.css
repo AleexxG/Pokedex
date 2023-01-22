@@ -1,30 +1,113 @@
 .app {
     width: 65%;
     margin: auto;
+    background: rgb(221, 221, 221);
+}
+
+.header_title {
+    width: 82%;
+    margin: auto;
+    background: white;
+    color: rgb(185, 185, 185);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.search_cont {
+    display: flex;
+    padding: 2rem 7rem;
+    background: rgb(43, 44, 53);
+    color: white;
+}
+
+.search_section {
+    width: 40%;
+    margin: auto;
+}
+.description_section {
+    width: 40%;
+    float: right;
+    margin: auto;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.input_custom {
+    border: 3px solid rgb(99, 99, 99);
+    height: 45px;
+    width: 85%;
+    border-radius: 5px;
+}
+.search_btn {
+    background: rgb(216, 106, 16);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    float: right;
+}
+.search_btn:hover, .search_btn:visited {
+    background: rgb(216, 89, 16);
+}
+.search_btn:active {
+    background: rgb(216, 73, 16);
+}
+
+/* Main */
+
+.main {
+    width: 82%;
+    margin: auto;
     background: white;
 }
 
-.pokemon_img {
-    width: 200px;
-    background: rgb(202, 202, 202);
-    padding: 1rem;
-    border-radius: 10px;
+.pokemon_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
 }
 
-.type_cont {
-    width: 183px;
+.pokemon_img {
+    width: 100%;
+    background: rgb(221, 221, 221);
+    padding: 2rem;
+    border-radius: 5px;
 }
+
+.pokemon_num {
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+}
+
 .grass {
     background: rgb(118, 175, 92);
-    width: 50%;
+    width: 40%;
+    font-size: 12px;
+    font-weight: 600;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 3px;
     
 }
 .poison {
     background: rgb(180, 116, 180);
+    width: 40%;
     color: white;
-    width: 50%;
+    font-size: 12px;
+    font-weight: 600;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 3px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 82%;
+    margin: auto;
+    background: white;
+    text-align: center;
 }

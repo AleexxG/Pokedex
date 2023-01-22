@@ -14,56 +14,68 @@
 
     <div class="app">
         <header>
-            <h1 class="px-5">Pokedex</h1>
+            <h1 class="header_title px-5 py-3">Pokedex</h1>
 
-            <div class="text-bg-dark p-5">
-                <section>
+            <div class="search_cont">
+                <section class="search_section">
                     <h3>Name or Number</h3>
-                    <input type="text">
-                    <button>
+                    <input class="input_custom" type="text">
+                    <button class="search_btn">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
-                    <p>Use the Advanced Search to explore Pokémon by type, weakness, Ability, and more!</p>
+                    <p class="mt-2">Use the Advanced Search to explore Pokémon by type, weakness, Ability, and more!</p>
                 </section>
 
-                <section class="text-bg-success p-3">
+                <section class="description_section text-bg-success">
                     <p>Search for a Pokemon by name or using its National Pokedex number.</p>
                 </section>
             </div>
         </header>
 
-        <main>
-            <div class="d-flex gap-5 p-5">
-                <div>
+        <main class="main">
+            <div class="pokemon_cont">
+                <div class="mt-5">
                     <img class="pokemon_img" src="./img/pokemon.png" alt="Pokemon">
                     <div class="ms-3">
-                        <p class="mt-auto">#0001</p>
+                        <p class="pokemon_num my-1">#0001</p>
                         <h3>Bulbasaur</h3>
-                        <div class="type_cont d-flex gap-3">
+                        <div class="type_cont d-flex gap-1">
                             <p class="grass">Grass</p>
                             <p class="poison">Poison</p>
                         </div>
                     </div>
                 </div>
                 
-                <div>
+                <div class="mt-5">
                     <img class="pokemon_img" src="./img/pokemon.png" alt="Pokemon">
                     <div class="ms-3">
-                        <p class="mt-auto">#0001</p>
+                        <p class="pokemon_num my-1">#0001</p>
                         <h3>Bulbasaur</h3>
-                        <div class="type_cont d-flex gap-3">
+                        <div class="type_cont d-flex gap-1">
+                            <p class="grass">Grass</p>
+                            <p class="poison">Poison</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-5">
+                    <img class="pokemon_img" src="./img/pokemon.png" alt="Pokemon">
+                    <div class="ms-3">
+                        <p class="pokemon_num my-1">#0001</p>
+                        <h3>Bulbasaur</h3>
+                        <div class="type_cont d-flex gap-1">
                             <p class="grass">Grass</p>
                             <p class="poison">Poison</p>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                <div class="mt-5">
                     <img class="pokemon_img" src="./img/pokemon.png" alt="Pokemon">
                     <div class="ms-3">
-                        <p class="mt-auto">#0001</p>
+                        <p class="pokemon_num my-1">#0001</p>
                         <h3>Bulbasaur</h3>
-                        <div class="type_cont d-flex gap-3">
+                        <div class="type_cont d-flex gap-1">
                             <p class="grass">Grass</p>
                             <p class="poison">Poison</p>
                         </div>
@@ -73,7 +85,7 @@
         </main>
 
         <footer>
-            <button>Load more Pokemon</button>
+            <button class="btn btn-primary my-5 p-2">Load more Pokemon</button>
         </footer>
     </div>
 
