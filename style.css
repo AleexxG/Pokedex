@@ -13,6 +13,11 @@
     font-size: 30px;
 }
 
+.btn_dropdown {
+    width: 100%;
+    border-radius: 0;
+}
+
 .search_cont {
     display: flex;
     padding: 2rem 7rem;

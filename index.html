@@ -30,6 +30,20 @@
                     <p>Search for a Pokemon by name or using its National Pokedex number.</p>
                 </section>
             </div>
+
+            <button 
+                class="btn_dropdown btn btn-secondary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#row"
+                aria-controls="row"
+                aria-expanded="false"
+            >o</button>
+            <div class="collapse" id="row">
+                <p>a</p>
+                <p>b</p>
+                <p>c</p>
+            </div>
         </header>
 
         <main class="main">
@@ -38,7 +52,7 @@
                     <img class="pokemon_img" src="./img/pokemon.png" alt="Pokemon">
                     <div class="ms-3">
                         <p class="pokemon_num my-1">#0001</p>
-                        <h3>Bulbasaur</h3>
+                        <h3 class="pokemon_name">Bulbasaur</h3>
                         <div class="type_cont d-flex gap-1">
                             <p class="grass">Grass</p>
                             <p class="poison">Poison</p>
