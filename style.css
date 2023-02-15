@@ -92,23 +92,14 @@
     font-weight: 600;
 }
 
-.grass {
-    background: rgb(118, 175, 92);
+.type_color {
     width: 40%;
     font-size: 12px;
     font-weight: 600;
     text-align: center;
     border-radius: 3px;
-    
-}
-.poison {
-    background: rgb(180, 116, 180);
-    width: 40%;
-    color: white;
-    font-size: 12px;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 3px;
+    padding-bottom: 2px;
+    text-transform: capitalize;    
 }
 
 
